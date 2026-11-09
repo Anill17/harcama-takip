@@ -2,7 +2,7 @@
 
 Harcamalarını ekleyip kategoriye göre takip edebileceğin basit bir web uygulaması. Veriler tarayıcıda (LocalStorage) saklanır.
 
-🔗 **Canlı:** <CANLI_URL>
+🔗 **Canlı:** https://harcama-takip-beta.vercel.app
 
 ![Ekran görüntüsü](docs/screenshot.png)
 
