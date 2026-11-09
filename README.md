@@ -1,16 +1,35 @@
-# React + Vite
+# Harcama Takip
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Harcamalarını ekleyip kategoriye göre takip edebileceğin basit bir web uygulaması. Veriler tarayıcıda (LocalStorage) saklanır.
 
-Currently, two official plugins are available:
+🔗 **Canlı:** <CANLI_URL>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Ekran görüntüsü](docs/screenshot.png)
 
-## React Compiler
+## Özellikler
+- Harcama ekleme / silme
+- Kategori rozetleri ve filtreleme
+- Toplam tutar özeti
+- LocalStorage ile kalıcı veri
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Kullanılan Teknolojiler
+React, Vite, Tailwind CSS, LocalStorage, Vercel
 
-## Expanding the Oxlint configuration
+## Kurulum
+```bash
+git clone https://github.com/Anill17/harcama-takip
+cd harcama-takip
+npm install
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Yapay Zeka Kullanımı
+Proje Claude Code ile geliştirildi:
+- **Planlama:** Uygulama fikri, ekranlar ve veri modeli yapay zeka ile çıkarıldı.
+- **Kurulum:** Vite + Tailwind kurulumu yapay zeka tarafından yapıldı.
+- **Bileşen üretimi:** Form, liste, özet kartı ve filtre bileşenleri yapay zeka ile yazıldı.
+- **Hata ayıklama:** Build ve çalışma hataları yapay zeka ile tespit edilip düzeltildi.
+- **Yayın:** GitHub'a yükleme ve Vercel'e deploy (Vercel MCP) yapay zeka ile yapıldı.
+- **Dokümantasyon:** Bu README yapay zeka ile taslak olarak hazırlandı.
+
+Üretilen kod çalıştırılarak ve elle test edilerek doğrulandı.
